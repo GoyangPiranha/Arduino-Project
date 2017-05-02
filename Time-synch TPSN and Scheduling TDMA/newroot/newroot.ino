@@ -178,9 +178,17 @@ void TDMArecv(){
 //  Serial.print("(");
 //  Serial.print(DataTerima[5]);
 //  Serial.println(")");
-  Serial.print("Nilai Sensor : ");
+  Serial.println("Nilai Sensor : ");
 //  Serial.println(DataTerima[6]);
 //  Serial.println(DataTerima[7]);
+  Serial.print("R :");
   Serial.print(DataTerima[8]);
   Serial.println(DataTerima[9]);
+  Serial.print("G :");
+    Serial.print(DataTerima[10]);
+  Serial.println(DataTerima[11]);
+  Serial.print("B :");
+  Serial.print(DataTerima[12]);
+  Serial.println(DataTerima[13]);
+
 }
